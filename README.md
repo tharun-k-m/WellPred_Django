@@ -58,7 +58,6 @@ With the virtual environment activated, install all required packages using `pip
 pip install -r requirements.txt
 ```
 
-*Note: This step assumes you have a `requirements.txt` file in the root directory listing packages like Django, pandas, and scikit-learn.*
 
 ### 4\. Database Migrations
 
@@ -89,7 +88,7 @@ The application will now be running at: **[http://127.0.0.1:8000/](https://www.g
 | `app/` | Primary Django application (views, basic models, logic). |
 | `templates/` | Contains HTML templates (`heart/`, `kidney/`, `cervical/` UI). |
 | `static/` | Static assets like CSS and JavaScript. |
-| `pickles/` | **Crucial:** Stores the pre-trained machine learning models (e.g., `heart_model.pkl`). |
+| `pickles/` | **Crucial:** Stores the pre-trained machine learning models . |
 | `env/` | The Python Virtual Environment. |
 
 ## How Prediction Works
